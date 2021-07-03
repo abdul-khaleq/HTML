@@ -1,0 +1,53 @@
+.section-bg-1{
+    background-image: url("../img/bg2.jpg");
+    background-size: cover;
+    background-position: cenetr;
+}
+.section-bg-2{
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
+    background-position: cenetr;
+    color: white;
+    overflow: hidden;
+}
+.zigzag-text:after {
+    content: "";
+    position: absolute;
+    left: -4890%;
+    top: 0;
+    height: 100%;
+    width: 5000%;
+    background-color: #345626;
+    opacity: .8;
+    transform: skew(10deg);
+    z-index: -1;
+}
+
+.zigzag-text {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-bg-2 .zigzag-text:after{
+    left: auto;
+    right: -4890%;
+}
+.section-bg-2 .zigzag-text{
+    padding-left: 50px;
+}
+.boxed-btn{
+    display:inline-block;
+    padding:10px 30px;
+    color:#ffff;
+    background: #000000;
+}
+.boxed-btn:hover{
+    color: aliceblue;
+    text-decoration-color:red; 
+    text-decoration-style: double;
+}
+.boxed-btn:active{
+    color:snow;
+}

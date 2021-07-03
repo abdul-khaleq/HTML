@@ -1,0 +1,13 @@
+/*manu start*/
+.manu{width:100%;min-height:60px;}
+.manu ul{list-style-type:none;margin:0;padding:0;}
+.manu ul li{float:left;position:relative;}
+.manu ul li a{text-decoration:none;padding:20px;background:#a51c95;color:#fff; border-left:1px solid #c417b0;border-right:1px solid #601558;display:block;}
+.manu ul li a:hover{background:#56134e;color:#fff;}
+/*manu end*/
+/*Dropdown Start*/
+.manu ul li ul{position:absolute;left:-55555px; transition:.5s;}
+.manu ul li:hover ul{left:0;}
+.manu ul li ul li{float:none;width:200px;}
+.manu ul li ul li a{background:#630d59;color:#fff;padding:15px;}
+.manu ul li ul li a:hover{background:#3f0438;color:#fff;}

@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style> 
+/*After & Before*/
+div{
+	text-align:center;
+	position:relative;
+	font-size:33px;
+	margin-top:50px;
+}
+.before:before{
+	content:"";
+	width:20%;
+	height:5px;
+	background:green;
+	position:absolute;
+	/*left:40%; OR left:0; right:0; margin:auto; */
+	left:0;
+	right:0;
+	margin:auto;
+	top:38px;
+}
+.before:after{
+	content:"";
+	position:absolute;
+	width:5%;
+	height:15px;
+	background:red;
+	left:47.5%;
+	/*left:40%; OR left:0; right:0; margin:auto; */
+	top:33px;
+}
+/*After & Before Font*/
+.font:after{
+	
+	content:"\xf061;";
+}
+</style>
+</head>
+<body>
+<div class="before"> Abdul Khaleq</div>
+<div class="font"> Abdul Khaleq</div>
+<i class="fa fa-cloud"></i>
+<i class="fa fa-heart"></i>
+<i class="fa fa-car"></i>
+<i class="fa fa-file"></i>
+<i class="fa fa-bars"></i>
+</body>
+</html>

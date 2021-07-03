@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp Form</title>
+<style>
+body {
+	background: #3ac617;
+}
+.wrap {
+	width: 400px;
+	margin: auto;
+	margin-top: 55px;
+	padding: 8px;
+	background: #57824c;
+}
+form {
+	padding: 10px;
+	font-family: arial;
+	border: 2px dotted white;
+	margin: 12px;
+}
+h1{
+	text-align: center;
+	background: #848982;
+	color: #daedd5;
+	padding:12px;
+	border-radius: 12px;
+}
+input{
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	border: none;
+}
+input[type=text], input[type=email], input[type=number], input[type=password] {
+	width: 91%;
+}
+input[type=submit] {
+	width: 96%;
+	background: #7f897d;
+	color: #c3f2b8;
+	cursor: pointer;
+	font-size: 19px;
+	font-weight: bold;
+}
+input[type=submit]:hover{
+	background: #251c87;
+}
+</style>
+</head>
+<body>
+	<div class="wrap">
+		<form>
+			<h1>SignUp Free</h1>
+			<input type="text" name="yourname" placeholder="Your Name">
+			<input type="email" name="email" placeholder="Your Email">
+			<input type="number" name="mnumber" placeholder="Molile Number">
+			<input type="password" name="password" placeholder="Password">
+			<input type="password" name="conformpassword" placeholder="Conform Password">
+			<span style="font-size:20px;">Date of Birth</span>
+			<br>
+			
+			<select name="DoBmonth">
+				<option>Month</option>
+				<option value="january">January</option>
+				<option value="february">February</option>
+			</select>
+			
+			<select name="DoBday">
+				<option>Day</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+			</select>
+			
+			<select name="DoByear">
+				<option>Year</option>
+				<option value="2000">2000</option>
+				<option value="1990">1990</option>
+			</select>
+			<br>
+			<br>
+			<input type="radio" name="male" value="male">Male
+			<input type="radio" name="female" value="female">Female
+			<br>
+			<input type="checkbox"> I Agree to The Terms of use
+			<br>
+			<input type="submit" value="submit now">
+		</form>
+	</div>
+</body>
+</html>

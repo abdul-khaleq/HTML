@@ -1,0 +1,145 @@
+@media screen and (max-width: 1199px) {
+	
+	
+}
+@media screen and (max-width: 1199px) {
+    /* For mobile phones: */
+    .img-margin{
+		margin:41px;
+	}
+	.section-7-img img{
+		width:297px;
+		height:297px;
+	}
+		/*Section-12*/
+	h3.section-12-h3{
+		font-size:25px;
+	}
+			/*Section-15*/
+	.col-sm-5 ul.nav a{
+		padding-left:3px;
+		padding-right:3px;
+		font-size:15px;
+	}
+	h6.section-15-h6{
+		font-size:14px;
+	}
+
+}
+@media screen and (max-width: 991px) {
+		/*Section-1*/
+	.section-1-pont li a{
+		font-size:13px;
+	}
+		/*Section-4*/
+	.section-4-position{
+		top:20px;
+		right:20px;
+	}
+		/*Section-5*/
+	.container-fluid.bg-grey .container.text-center .section-5-spece .row .col-sm-10.offset-1 h2 {
+		font-size:28px;
+	}
+	.container-fluid.bg-grey .container.text-center .section-5-spece .row .col-sm-10.offset-1 p {
+		font-size:14px;
+	}
+		/*Section-6*/
+	.section-6-font{
+		font-size:25px;
+	}
+		/*Section-7*/
+	.section-7-img img{
+		width:217px;
+		height:217px;
+	}
+		/*Section-8*/
+	.col-sm-6.section-8-h2 h4{
+		font-size:20px;
+	}
+		
+		/*Section-9*/
+	.row.section-9-font .col-lg-1.col-md-1 i{
+		font-size:40px;
+	}
+	.row.section-9-font .col-lg-3.col-md-3 h3{
+		font-size:19px;
+	}
+	.row.section-9-font .col-lg-3.col-md-3 p{
+		font-size:14px;
+	}
+	/*Section-10*/
+	.container.section-10-font .row .col-sm-4 p{
+		font-size:14px;
+	}
+	.container.section-10-font .row .col-sm-4 p{
+		font-size:14px;
+	}
+	.container.section-10-font .col-sm-2 .row .zero{
+		width:100px;
+		height:100px;
+	}
+	.container.section-10-font .col-sm-2 .row .font-margin i{
+		width:25px;
+		height:25px;
+		border-radius:50%;
+		padding:5px;
+		text-align:center;
+	}
+		/*Section-13*/
+	.img-margin{
+		margin:17px;
+	}
+	.section-13-margin{
+		padding-top:50px;
+		padding-bottom:50px;
+	}
+	h3.section-12-h3{
+		font-size:18px;
+	}
+	.col-sm-6.section-11 h3{
+		font-size:17px;
+	}
+	
+	.col-sm-6.section-11 p{
+		font-size:12px;
+	}		
+		/*Section-14*/
+	.zero2{
+		width:24px;
+		height:24px;
+		padding:0px;
+
+	}
+	.bg-margin{
+		margin-left:10px;
+	}
+	.bg-margin2{
+		margin-right:10px;
+	}
+	.section-14-h4{
+		font-size:22px;
+	}
+	 .h6{
+		font-size:8px;
+	}
+				/*Section-15*/
+	.col-sm-5 ul.nav a{
+		padding-left:3px;
+		padding-right:3px;
+		font-size:10px;
+	}
+	h6.section-15-h6{
+		font-size:10px;
+	}
+	.footer-position-main {
+		right: 44%;
+
+	}
+}
+@media screen and (max-width: 767px){
+	.col-lg-4.col-md-4.bg-zero .section-14-margin-2 p a{
+		width:18px;
+		height:28px;
+		padding:5px;
+	}
+}

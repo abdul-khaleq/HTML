@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Responsive Pricing Table</title>
+<style>
+*{
+	box-sizing:boder-box:
+}
+body{
+	background: lightblue;
+}
+.wrap{
+	margin-top: 50px;
+	max-width: 1000px;
+	margin: auto;
+	font-family: Arial;
+}
+.columns{
+	float:left;
+	width: 33.3%;
+	padding: 15px;
+}
+.price{
+	background:#efed40;
+	color: #000;
+	margin: 0;
+	padding: 0;
+	border: 2px solid #eee;
+	list-style: none;
+}
+.price:hover{
+	box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
+.price .header{
+	background: #111;
+	color: white;
+	font-size: 25px;
+}
+.price li {
+	border-bottom: 2px #eee dotted;
+	padding: 20px;
+	text-align: center;
+}
+.price .price-button{
+	background: #eee;
+	font-size: 30px;
+	color: #000;
+	font-weight:bold;
+}
+.button{
+	background:#ff267e;
+	border:none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+.button:hover{
+	background: #000;
+}
+@media only screen and (max-width:600px){
+	.columns{
+		width: 100%;
+	}
+}
+	
+</style>
+</head>
+<body>
+<div class="wrap"> 
+	<div class="columns">
+		<ul class="price"> 
+			<li class="header">Extended plan</li>
+			<li class="price-button"><sup>$</sup>99.99 <sub>/year</sub></li>
+			<li>100GP storage</li>
+			<li>Unlimited Emails</li>
+			<li>50 Domains</li>
+			<li>100GB Bandwidth</li>
+			<li class="price-button"> <a href="#" class="button">Buy Now</a></li>
+		</ul>
+	</div>
+	<div class="columns">
+		<ul class="price"> 
+			<li class="header" style="background:#4caf50">Free plan</li>
+			<li class="price-button"><sup>$</sup>00.00 <sub>/year</sub></li>
+			<li>2GP storage</li>
+			<li>2 Emails</li>
+			<li>10 Domains</li>
+			<li>5GB Bandwidth</li>
+			<li class="price-button"> <a href="#" class="button">Buy Now</a></li>
+		</ul>
+	</div>
+	<div class="columns">
+		<ul class="price"> 
+			<li class="header">Business plan</li>
+			<li class="price-button"><sup>$</sup>49.99 <sub>/year</sub></li>
+			<li>50GP storage</li>
+			<li>100 Emails</li>
+			<li>10 Domains</li>
+			<li>20GB Bandwidth</li>
+			<li class="price-button"> <a href="#" class="button">Buy Now</a></li>
+		</ul>
+	</div>
+	
+</div>
+</body>
+</html>

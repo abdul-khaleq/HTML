@@ -1,0 +1,46 @@
+.bg-grey{
+    background: #fafafa;
+}
+.service-bg-1{
+    background: url("../img/baby1.jpg");
+}
+.service-bg-2{
+    background: url("../img/baby2.jpg");
+}
+.service-bg-3{
+    background: url("../img/baby3.jpg");
+}
+.service-bg-4{
+    background: url("../img/baby4.jpg");
+}
+.service-bg{
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.vervice-content{
+    background-color: #ffffff;
+    padding: 10px;
+}
+.single-service-item{
+    transition: .4s;
+}
+.single-service-item:hover .service-bg{
+    background-size: 150%;
+    background-position:center;
+    background-size: cover;
+}
+.single-service-item:hover{
+    box-shadow: 0 0 10px #000000;
+}
+.See-more{
+    padding: 5px 0px;
+    display: inline-block;
+    border-radius: 30px;
+    transition: .4s;
+}
+.See-more:hover{
+    background:seagreen;
+    text-decoration: none;
+    padding: 5px 20px;
+}

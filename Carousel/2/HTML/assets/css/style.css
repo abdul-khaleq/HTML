@@ -1,0 +1,29 @@
+.carousel-area{
+    position: relative;
+}
+.carousel-area .owl-nav div {
+    position: absolute;
+    top: 48%;
+    left: -9%;
+    font-size: 25px;
+    color: brown;
+}
+.carousel-area .owl-nav .owl-next {
+    left: auto;
+    right: -9%;
+}
+.carousel-area .owl-nav div i {
+    padding: 50px;
+    display: inline;
+}
+.carousel-area .owl-dots div {
+    width: 15px;
+    height: 15px;
+    background: #ddd;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 50%;
+}
+.carousel-area .owl-dots div.active {
+    background: rebeccapurple;
+}

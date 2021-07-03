@@ -1,0 +1,73 @@
+.position-font{
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.position-font:before{
+    content:"";
+    position: absolute;
+    width:60px;
+    height: 5px;
+    left: 50%;
+    bottom:0;
+    background: #000000;
+    margin-left: -30px;
+}
+.position-font:after{
+    content:"";
+    position: absolute;
+    width:30px;
+    height: 5px;
+    left: 50%;
+    bottom:0;
+    background: red;
+    margin-left: -15px;
+}
+
+
+/*styled-faq-css*/
+h2 span{
+    color: fuchsia;
+}
+.background-bg-1{
+    position:relative;
+}
+.background-bg-1:after{
+    background: url("../img/bg2.jpg");
+    background-position: center;
+    background-size: cover;
+    content:'';
+    position:absolute;
+    top:0;
+    left: 0;
+    width:45%;
+    height:360px;
+    background-color:#aaa;
+}
+h2.section-tytle{
+    font-weight: 700;
+    text-transform:uppercase;
+    font-size:30px;
+}
+.styled-faq .card .card-header{
+    padding: 0;
+    background: none;
+    border: none;
+}
+.styled-faq .card .card-header a{
+    padding:10px;
+    display:block;
+}
+.styled-faq .card .card-header a i{
+    float: right;
+    font-size: 150%;
+    line-height: 15px;
+    display: none;
+}
+
+.styled-faq .card .card-header a[aria-expanded="true"] i.fa.fa-angle-up{
+    display: block;
+}
+.styled-faq .card .card-header a[aria-expanded="false"] i.fa.fa-angle-down{
+    display: block;
+}

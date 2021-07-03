@@ -1,0 +1,119 @@
+.button-group{
+	width: 320px;
+	border-radius:20px;
+	margin: 20px auto;
+	height: 40px;
+	border: 1px solid #ca5353;
+		overflow: hidden;
+}
+
+.btnw{
+	width: 50%;
+	height: 100%;
+	float: left; 
+	color: #a3a3a3;
+	background: #ccc; 
+	line-height: 2.3;
+		position: relative;
+}
+
+.btng{
+	width: 50%;
+	height: 100%;
+	float: left;
+	color: #fff;
+	background: green;
+	line-height: 2.3
+}
+.or{
+	width: 25px;
+    height: 25px;
+	color: #fff;
+	background: red;
+	border-radius: 50%;
+	line-height: 1.5;
+	position: absolute;
+    right: -13px;
+    top: 7px;	
+}
+
+
+.button{
+	width:400px;
+	height:50px;
+	border:2px solid black;
+	border-radius:20px;
+	margin:50px auto;
+	overflow:hidden;
+	text-align:center;
+	
+}
+.bw{
+	width:50%;
+	height:100%;
+	float:left;
+	color:#535353;
+	background:#ffffff;
+	line-height:3.1;
+	position: relative;
+}
+.bg{
+	width:50%;
+	height:100%;
+	float:left;
+	color:#ffffff;
+	background:#5db442;
+	line-height:2.8;
+}
+.o{
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	color:#fff;
+	background:#4ca368;
+	line-height:1.1;
+	position:absolute;
+	right:-10px;
+	top:15px;
+}
+.by{
+	width:100%;
+	min-height:150px;
+	text-align:center;
+}
+.by-1{
+	width:30%;
+	height:50px;
+	border:1px solid black;
+	border-radius:20px;
+	margin:50px auto;
+	overflow:hidden;
+}
+.by-2{
+	width:60%;
+	height:100%;
+	float:left;
+	background:#fff;
+	margin:0 auto;
+}
+.by-2 input{
+	width:100%;
+	border:none;
+	outline:none;
+	height:100%;
+	padding:0 0 0 5px;
+}
+.by-3{
+	width:40%;
+	height:100%;
+	float:left;
+	color:#fff;
+	margin:0 auto;
+}
+.by-3 input{
+	width:100%;
+	height:100%;
+	border:none;
+	outline:none;
+	background:#4ca368;
+}
